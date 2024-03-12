@@ -1,0 +1,64 @@
+.form-section{
+    border: 1.5px solid cornflowerblue;
+    border-radius: 4px;
+    margin: 10px;
+}
+.form-section h2{
+    background-color: #ccdbf5;
+    color: blue;
+    margin-top: 0;
+}
+h4{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+.data-row{
+    display: grid;
+
+}
+input, select{
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    width: 300px;
+    height: 60px;
+}
+
+h4, .data-row{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+button{
+    font-size: x-large;
+    color: white;
+    background-color: cornflowerblue;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#success{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
