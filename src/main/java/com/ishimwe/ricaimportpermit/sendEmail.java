@@ -21,6 +21,7 @@ public class sendEmail extends HttpServlet {
         names=request.getParameter(("surname"));
         company=request.getParameter("company-name");
         message="Hello "+names + " owner of "+company +", thank you for sending your request. ";
+
         EmailClass mail = new EmailClass();
         mail.sendEmail(email,"Request Received ",message);
     }
